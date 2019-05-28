@@ -2,9 +2,10 @@ import Vue from 'vue'
 import { firestorePlugin } from 'vuefire'
 import VueRouter from 'vue-router'
 import App from './App.vue'
-import { MdApp, MdToolbar, MdMenu, MdButton, MdContent, MdTabs, MdIcon, MdList } from '../node_modules/vue-material/dist/components'
+import { MdApp, MdToolbar, MdMenu, MdButton, MdContent, MdTabs, MdIcon, MdList, MdCard, MdDrawer } from '../node_modules/vue-material/dist/components'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
+//import 'vue-material/dist/theme/default-dark.css' // This line here
 
 import AddPet from './components/AddPet.vue'
 import EditPet from './components/EditPet.vue'
@@ -19,6 +20,8 @@ Vue.use(MdButton)
 Vue.use(MdContent)
 Vue.use(MdTabs)
 Vue.use(MdIcon)
+Vue.use(MdCard)
+Vue.use(MdDrawer)
 Vue.use(firestorePlugin)
 Vue.use(VueRouter)
 Vue.config.productionTip = false

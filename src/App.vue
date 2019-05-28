@@ -90,7 +90,7 @@ export default {
   @import '../node_modules/vue-material/dist/vue-material.min.css';
   @import url("//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons");
   .md-app {
-    max-height: 400px;
+    height: 100vh;
     border: 1px solid rgba(#000, .12);
   }
   .md-drawer {
